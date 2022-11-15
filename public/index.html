@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task manager</title>
-    <script src="js/main.js" defer></script>
   </head>
   <body>
     <form class="task-form">
@@ -23,7 +22,20 @@
     </form>
     <section class="tasks-container">
       <p class="loading-text">Loading...</p>
-      <div class="tasks"></div>
+      <div class="tasks" style="width: 25%"></div>
     </section>
+    <!-- <script src="../node_modules/axios/dist/axios.min.js"></script> -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"
+      integrity="sha512-0qU9M9jfqPw6FKkPafM3gy2CBAvUWnYVOfNPDYKVuRTel1PrciTj+a9P3loJB+j0QmN2Y0JYQmkBBS8W+mbezg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/6c82a11cff.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
